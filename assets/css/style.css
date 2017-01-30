@@ -504,12 +504,14 @@ input, textarea{
 	}
 
 	.img-h2 {
-		width: 90.3%;
+		width: 87.7%;
 		top: 70%;
+		margin-left: -2.5%;
 	}
 
 	.bball {
 		height: 350px;
+		margin-left: 3%;
 	}
 
 }
