@@ -86,7 +86,7 @@ h1, h2, h4 {
 	width: 650px;
 	background-color: #fff;
 	margin-top: 30px;
-	height: 450px;
+	height: auto;
 }
 
 .bio-image {
@@ -198,7 +198,7 @@ input{
 /**********PORTFOLIO SECTION*********/
 
 .bball{
-	width: 275px;
+	width: 96%;
 	height: 250px;
 	margin-left: 20px;
 	padding: 10px;
@@ -206,19 +206,18 @@ input{
 }
 
 .portfolio-section{
-	height: 940px;
-	margin-bottom: 150px;
+	height: auto;
+	margin-bottom: 13%;
 }
 
 .left-side{
 	position: relative;
-	width: 275px;
+	width: 300px;
 	float: left;
-	margin-right: 40px;
 }
 .img-h2{
 	position: absolute;
-	width: 245px;
+	width: 258px;
 	top: 175px;
 	left: 30px;
 	padding: 15px;
@@ -259,34 +258,31 @@ input{
 /***Desktop***/
 @media screen and (max-width: 980px) {
 	.container{
-		width: 90%;
+		width: 100%;
 	}
 	.main-bio { 
-	width: 60%; 
+	width: 40%; 
 	height: auto;
 	margin-bottom: 15%;
 }
 
 	.name {
-		margin-left: 5%;
+	margin-left: 5%;
 	}
 
 	.main-bio p {
 	width: 85%;
 	margin-left: 8%;
-
-
 	}
 	
-
 	.bio-image{
-		width: 85%;
-		height:400px;
-		margin-left: 7%;
+		width: 90%;
+		height:300px;
+		margin-left: 5%;
 		margin-bottom: 3%;
 	}
 	.main-hr {
-		width: 85%;
+		width: 90%;
 	}
 
 	input, .message-section {
@@ -314,10 +310,16 @@ input{
 		font-size: 30px;
 	}
 
-	.portfolio-section {
-		width: 40%;
-
+	.left-side {
+		width: 83.5%;
+		margin-left: 2%;
 	}
+
+	.img-h2 {
+		width: 86.7%;
+	}
+
+	
 }	
 /***Tablet***/
 @media screen and (max-width: 768px) {
@@ -372,6 +374,18 @@ input{
 		float: left;
 		margin-left: 3%;
 	}
+	
+	.left-side{
+		width: 47%;
+		margin-left: 0%;
+
+	}
+
+	.img-h2 {
+		width: 87%;
+		margin-left: 0%;
+	}
+
 
 }
 /***Phone***/
@@ -475,14 +489,15 @@ input{
 		float: left;
 		margin-left: 5%;
 	}
-
-	.portfolio-section {
-
-		width: 75%;
+	
+	.left-side {
+		width: 93.5%;
 	}
 
-
+	.img-h2 {
+		width: 90.3%;
 	}
+
 }
 
 
