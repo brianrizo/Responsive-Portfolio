@@ -176,6 +176,9 @@ button, label{
 
 label{
 	color: #777777;
+
+	
+
 }
 
 button{
@@ -193,6 +196,12 @@ button:hover {
 
 input{
 	height: 25px;
+	
+}
+
+input, textarea{
+	position: relative;
+	top: -10px;
 }
 
 /**********PORTFOLIO SECTION*********/
@@ -496,6 +505,11 @@ input{
 
 	.img-h2 {
 		width: 90.3%;
+		top: 70%;
+	}
+
+	.bball {
+		height: 350px;
 	}
 
 }
