@@ -412,7 +412,7 @@ input, textarea{
 	}
 
 	.name { 
-		width: 92%;
+		width: 100%;
 		text-align: center;
 		margin-left: 0;
 		position: relative;
